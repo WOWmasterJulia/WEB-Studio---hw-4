@@ -184,9 +184,10 @@ img {
 /* ----Главный экран HERO---- */
 .hero {
     /* background-color: var(--footer-bg-color); */
-    background: #2E2F42;
-        opacity: 0.7;
-    background-image: url("../images/img-hero.jpg");
+    /* background: #2E2F42;
+        opacity: 0.7; */
+    background-image: 
+    linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/img-hero.jpg");
     
         background-position: center;
         background-size: contain;

@@ -19,6 +19,7 @@ html {
     --text-footer-white: #E7E9FC;
 
     --icons-hover-color: #31D0AA;
+    --icons-border: #8E8F99;
     /* bg color */
     --primary-bg-color: #fff;
     --footer-bg-color: #2E2F42;;
@@ -254,8 +255,6 @@ img {
     margin-bottom: 0;
 }
 
-
-
 .feature-icon {
     width: 264px;
     height: 112px;
@@ -310,6 +309,7 @@ img {
     align-items: center;
     margin: 0 auto;
     gap: 24px;
+    margin-top: 8px;
 }
 .team-soc-item {
     
@@ -340,7 +340,38 @@ img {
 
 
 /* ------Услуги CUSTOMERS------  */
+.customers-list {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 24px;
+}
 
+.team-soc-item {}
+
+.customer-link {
+    width: 168px;
+    height: 88px;
+    display: flex;
+    border-radius: 4px;
+    border: var(--icons-border);
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-icon {
+    width: 104px;
+    height: 56px;
+}
+
+.customer-icon:hover {
+    fill: var(--accent-color);
+
+} 
+.customer-link:hover {
+    border: var(--accent-color);
+} 
 
 
 /* ------Подвал FOOTER------ */

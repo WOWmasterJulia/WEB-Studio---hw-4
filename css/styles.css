@@ -17,6 +17,8 @@ html {
     /* --text-black: #000; */
     --logo-text-white: #F4F4FD;
     --text-footer-white: #E7E9FC;
+
+    --icons-hover-color: #31D0AA;
     /* bg color */
     --primary-bg-color: #fff;
     --footer-bg-color: #2E2F42;;
@@ -184,7 +186,8 @@ img {
 /* ----Главный экран HERO---- */
 .hero {
     background-color: var(--footer-bg-color);
-    
+    max-width: 1440px;
+    margin: 0 auto;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/img-hero.jpg");
     background-position: center;
@@ -289,9 +292,10 @@ img {
     display: flex;
     align-items: center;
     margin: 0 auto;
+    gap: 24px;
 }
 .team-soc-item {
-    grid-gap: 10px;
+    
 }
 .team-soc-link {
     width: 40px;
@@ -306,9 +310,16 @@ img {
     width: 20px;
     height: 20px;
 }
-.team-soc-item.instagram_1 {
-    background-image: url(../images/icons.svg#icon-instagram_1);
+/* .team-soc-icon:hover {
+    fill: var(--icons-hover-color);
+} */
+.team-soc-link:hover {
+    background-color: var(--icons-hover-color);
 }
+.team-soc-item.instagram_1 {
+    background-image: url(./images/icons.svg#icon-instagram_1);
+}
+
 
 /* ------Подвал FOOTER------ */
 .footer {

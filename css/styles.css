@@ -285,6 +285,30 @@ img {
     padding: 32px 16px;
 }
 
+.team-soc-list {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.team-soc-item {
+    grid-gap: 10px;
+}
+.team-soc-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    justify-content: center;
+    align-items: center;
+}
+.team-soc-icon {
+    width: 20px;
+    height: 20px;
+}
+.team-soc-item.instagram_1 {
+    background-image: url(./images/icons.svg#icon-instagram_1);
+}
 
 /* ------Подвал FOOTER------ */
 .footer {

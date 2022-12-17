@@ -255,6 +255,23 @@ img {
 }
 
 
+
+.feature-icon {
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.feature-icon-item {
+    width: 64px;
+    height:64px;
+}
+
+
 /* ----Услуги SERVICES---- */
 .services {
     display: flex;   
@@ -316,9 +333,9 @@ img {
 .team-soc-link:hover {
     background-color: var(--icons-hover-color);
 }
-.team-soc-item.instagram_1 {
+/* .team-soc-item.instagram_1 {
     background-image: url(./images/icons.svg#icon-instagram_1);
-}
+} */
 
 
 /* ------Подвал FOOTER------ */

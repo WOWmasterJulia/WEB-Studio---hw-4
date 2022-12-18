@@ -324,8 +324,8 @@ img {
     align-items: center;
 }
 .team-soc-icon {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
 }
 /* .team-soc-icon:hover {
     fill: var(--icons-hover-color);
@@ -376,18 +376,65 @@ img {
 
 /* ------Подвал FOOTER------ */
 .footer {
-    padding-top: 100px;
-    padding-bottom: 100px;
     background-color: var(--footer-bg-color);
 }
+.footer-content {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.logo-text {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}  
+.footer-social {
+    padding-top: 100px;
+    padding-bottom: 130px;
+} 
 .logo-footer {
     color: var(--logo-text-white);
+    letter-spacing: 0.02em;
 }
 .footer-text {
     color: var(--text-footer-white);
     width: 264px;
     margin-top: 16px;
 }
+
+
+.social-title {
+    color: var(--logo-text-white);
+}
+.footer-soc-list {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap: 16px;
+}
+
+.footer-soc-item {}
+
+.footer-soc-link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+.footer-soc-link:hover {
+    background-color: var(--icons-hover-color);
+}
+.footer-soc-icon {
+    width: 20px;
+    height: 20px;
+}
+
+/* .footer-soc-icon:hover {
+    fill: var(--icons-hover-color);
+} */
+
 
 
 

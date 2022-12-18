@@ -347,7 +347,16 @@ img {
     gap: 24px;
 }
 
-.team-soc-item {}
+.team-soc-item {
+    width: 168px;
+    height: 88px;
+    display: flex;
+    border-radius: 4px;
+    border: var(--icons-border);
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
 
 .customer-link {
     width: 168px;
@@ -380,8 +389,6 @@ img {
 }
 .footer-content {
     display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 .logo-text {
     padding-top: 100px;

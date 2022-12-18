@@ -333,9 +333,9 @@ img {
 .team-soc-link:hover {
     background-color: var(--icons-hover-color);
 }
-/* .team-soc-item.instagram_1 {
-    background-image: url(./images/icons.svg#icon-instagram_1);
-} */
+ /* .team-soc-item.instagram_1 {
+    background-image: url(../images/icons.svg#icon-instagram_1);
+}  */
 
 
 

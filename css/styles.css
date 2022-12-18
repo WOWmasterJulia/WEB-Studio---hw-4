@@ -357,23 +357,25 @@ img {
     display: flex;
     border-radius: 4px;
     border: var(--icons-border);
-    /* background-color: transparent; */
+    background-color: transparent; 
     justify-content: center;
     align-items: center;
+    color: var(--icons-border);
+    background-color: transparent;
+}
+.customer-link:hover {
+    color: var(--accent-color);
 }
 
 .customer-icon {
+    fill: currentColor;
     width: 104px;
     height: 56px;
 }
-
-.customer-icon:hover {
+/* .customer-icon:hover {
     fill: var(--accent-color);
-
-} 
-.customer-link:hover {
-    border: var(--accent-color);
-} 
+}  */
+ 
 
 
 /* ------Подвал FOOTER------ */

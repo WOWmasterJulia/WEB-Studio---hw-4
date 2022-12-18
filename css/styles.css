@@ -356,15 +356,15 @@ img {
     height: 88px;
     display: flex;
     border-radius: 4px;
-    border: var(--icons-border);
+    border: 1px solid #8E8F99;
     background-color: transparent; 
     justify-content: center;
     align-items: center;
     color: var(--icons-border);
-    background-color: transparent;
 }
 .customer-link:hover {
     color: var(--accent-color);
+    border: 1px solid #4D5AE5;
 }
 
 .customer-icon {

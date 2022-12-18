@@ -348,14 +348,7 @@ img {
 }
 
 .team-soc-item {
-    width: 168px;
-    height: 88px;
-    display: flex;
-    border-radius: 4px;
-    border: var(--icons-border);
-    background-color: transparent;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .customer-link {
@@ -364,7 +357,7 @@ img {
     display: flex;
     border-radius: 4px;
     border: var(--icons-border);
-    background-color: transparent;
+    /* background-color: transparent; */
     justify-content: center;
     align-items: center;
 }
